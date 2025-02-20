@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.back{
+    background-color: white;
+}
+.home{
+    padding-top: 10px;
+    padding-left: 8px;
+}
+.d{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+.navbar{
+    height: 80px;
+}
+.ma:hover{
+    border: 2px solid black;
+}
+.sports{
+    height: 50px;
+    font-size: 2rem;
+    margin-left: 80px;
+    margin-right: 100px;
+}
+.ma{
+    margin-top: 7px;
+    font-size: 1.5rem;
+    margin-right: 100px;
+    width: 120px;
+    height: 50px;
+}
+.membership{
+    width: 140px;
+}
+.left{
+    margin-left: 80px;
+    margin-right: 50px;
+    display: inline-block;
+}
+.l1{
+    font-size: 1.5rem;
+    color: blue;
+}
+.l2{
+    font-size: 2rem;
+}
+.l4text{
+    text-decoration: none;
+}
+.l4{
+    font-size: 1.5rem;
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: rgb(247, 102, 6);
+}
+.right{
+    width: 50%;
+    margin-right: 80px;
+    display: inline-block;
+    background-size: cover;
+}

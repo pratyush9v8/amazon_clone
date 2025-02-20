@@ -1,0 +1,127 @@
+*{
+    font-family: arial,sans-serif;
+    border: border-box;
+    color: #0f1111;
+}
+.navbar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    margin-top: 0px;
+    height: 61px;
+    background-size: cover;
+    background-image: url("ama3.png");
+    width: 135px;
+}
+.sign-outer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+.sign-box{
+    height: 314px;
+    width: 296px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px 26px;
+    position: relative;
+
+}
+.sign-fontw {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #0f1111;
+}
+.search-input{
+    margin-top:5px ;
+    height: 23.5px;
+    width: 281px;
+    padding: 3px 7px;
+    background-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(15, 17, 17, .15);
+}
+.button{
+    height: 30px;
+    width: 296px;
+    padding: 1px 6px;
+    background-color:#ffd814;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.text{
+    margin: 16px 0px 0px ;
+}
+.text a{
+    color: #007185;
+    text-decoration: underline;
+}
+.need{
+    color: #007185;
+}
+a{
+    color: #007185;
+}
+.buy{
+    margin-top:15px ;
+    margin-bottom:5px ;
+}
+
+
+.out-box{
+    height: 100px;
+    width: 350px;
+    text-align: center;
+    justify-content: center;
+}
+.new{
+    color: #565959;
+    font: 12px;
+    padding: opx 8px 0px 7px;
+    margin: 0px 0px 14px;
+}
+.butt{
+    color: #0f1111;
+    font: 13px;
+    padding: 0px 10px 0px 11px;
+    background-color: white;
+    width: 350px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* divider */
+.divider{
+    border-top: 2px solid #d5d9d9;
+    display: block;
+    height: 44px;
+    margin-bottom: -18px;
+}
+
+.bottom{
+    font: 12px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.bottom a{
+    color: #007185;
+    text-decoration: none;
+}
+.copyright{
+    margin: 0px 0px 32px;
+}
